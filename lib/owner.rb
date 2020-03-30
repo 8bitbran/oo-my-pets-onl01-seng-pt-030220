@@ -46,7 +46,9 @@ class Owner
     @dogs << Dog.new(name, self)
   end
   
-  
+  def walk_dogs 
+    
+  end
   
   def save 
     @@all << self
