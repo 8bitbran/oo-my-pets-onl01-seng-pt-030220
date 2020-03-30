@@ -51,6 +51,7 @@ class Owner
       if dog.owner == self 
         dog.mood = 'happy'
       end
+    end
   end
   
   def save 
