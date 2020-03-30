@@ -63,7 +63,7 @@ class Owner
   end 
   
   def sell_pets 
-    
+    pets = Dog.all + Cat.all 
   end 
   
   def save 
